@@ -5,3 +5,29 @@ p {
 html{
    background-color: aqua;
 }
+section>p{
+    background-color: white;
+    color: black !important;
+}
+body{
+    font-size: 10px;
+    
+}
+section::first-line{
+    background-color: red;
+}
+h2::first-letter{
+    font-size: 30px;
+}
+li:nth-child(2){
+    font-size: 20px;
+}
+ol:nth-last-child(even) a{
+    font-size: 20px;
+}
+li:nth-last-of-type(2){
+    font-size: 30px;
+}
+section:nth-of-type(1){
+    color:green;
+}
